@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Lyhour Lay</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#project">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Lyhour
+                        <span class="text-primary">Lay</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        San Diego · (951) 331-8309 
+                        <a href="mailto:lyhourlay1@gmail.com">lyhourlay1@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">I am a full stack developer with a passion in improving the process and making the product more available and convenient to consumers.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/lyhour/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/lyhourlay1"><i class="fab fa-github"></i></a>
+                        <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a> -->
+                        <!-- <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Project-->
+            <section class="resume-section" id="project">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Bamazon</h3>
+                            <div class="subheading mb-3">A full stack single-page Amazon clone where users can browse, add to the cart, and purchase the products as well as
+                            write reviews for the product.</div>
+                            <ul>
+                                <li>
+                                    Built a shopping cart using React to maintain the website as a single, responsive, and dynamic page
+                                </li>    
+                                <li>  
+                                    Designed action controllers using AJAX request and Ruby on Rails to send an http request for the actions like destroy,
+                                    create, and update the reviews and orders
+                                </li>
+                                <li>
+                                    Connected the rails backend to AWS S3 for images of the project to reduce space complexity in Heroku and GitHub
+                                </li>
+                                <li>
+                                    Implemented Redux search to improve user experience when browsing for products
+                                </li>
+                                <li>
+                                    Utilized mapStateToProp to pass in the products information that was fetched from the PostgreSQL database.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><a href="https://quickly-healthy.herokuapp.com/#/" class="text-primary">LIVE</a></div>
+                        <p>&nbsp; &nbsp; &nbsp;</p>
+                        <div class="flex-shrink-0"><a href="https://github.com/lyhourlay1/Quickly-healthy" class="text-primary">GITHUB</a></div>                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Quickly Healthy</h3>
+                            <div class="subheading mb-3">A full stack single-page website that quickly connects patients and doctors.</div>
+                            <ul>
+                                <li>
+                                    Led a 4 members team to build an application that connects patients and doctor’s user experience using JavaScript as
+                                    frontend, Express as backend, and MongoDB as database
+                                </li>
+                                <li>
+                                    Implemented the Router that take in arguments of integer that represents time slot and string of date to update the
+                                    database of the doctor availabilities in MongoDB to ensure no duplicate appointment
+                                </li>
+                                <li>
+                                    Developed an auto updated calendar algorithm using JavaScript to allow user selecting available appointment slots that
+                                    were extracted from MongoDB
+                                </li>
+                                <li>
+                                    Utilized React and Map API to improve user experience by fetching the updated doctor’s information like availability and
+                                    location and re-render through the props
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><a href="https://quickly-healthy.herokuapp.com/#/" class="text-primary">LIVE</a></div>
+                        <p>&nbsp; &nbsp; &nbsp;</p>
+                        <div class="flex-shrink-0"><a href="https://github.com/lyhourlay1/Quickly-healthy" class="text-primary">GITHUB</a></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Squid Game-red light, green light</h3>
+                            <div class="subheading mb-3">A JavaScript game that requires the player to walk across the board within a time limit and only during when music is
+                            playing.</div>
+                        <ul>
+                            <li>
+                                Structured the tree of nodes using DOM to add event listener for elements to play music, start the game, and move around
+                                on the board
+                            </li>
+                            <li>
+                                Incorporated Canvas to render the board for the character to walk across
+                            </li>
+                            <li>
+                                Ensured music was playing at specific time by using asynchronous setTimeOut and setTimeInterval
+                            </li>
+                        </ul>
+                        </div>
+                        <div class="flex-shrink-0"><a href="https://quickly-healthy.herokuapp.com/#/" class="text-primary">LIVE</a></div>
+                        <p>&nbsp; &nbsp; &nbsp;</p>
+                        <div class="flex-shrink-0"><a href="https://github.com/lyhourlay1/Quickly-healthy" class="text-primary">GITHUB</a></div>                    
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">In Vitro Research Associate Intern</h3>
+                            <div class="subheading mb-3">Crown BioScience</div>
+                            <ul>
+                                <li>
+                                    Improved the cell culture process by inventing formulated Excel worksheets for cell culture calculation
+                                </li>
+                                <li>
+                                    Managed 4-5 30k dollars projects in the in vitro team to ensure cells being delivered successfully on time
+                                </li>
+                                <li>
+                                    Operated 30 cell lines starting from thawing to banking and inoculating in an agile and fast paced work environment
+                                </li>
+                                <li>
+                                    Trained new employees with aseptic techniques and cell culture procedures to sure to help them quickly picking up projects
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2020 - June 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Resident Assistant</h3>
+                            <div class="subheading mb-3">University of California, San Diego</div>
+                            <ul>
+                                <li>
+                                    Served as a mediator for 50 residents to help resolving roommate/suite conflicts throughout the school year
+                                </li>
+                                <li>
+                                    Organized 10 social and 5 educational events to help students successfully transition to college
+                                </li>
+                                <li>
+                                    Enforced housing policy and documented any emergency or misconduct incidents
+                                </li>
+                            </ul>                        
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2019 - June 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Summer Research Intern</h3>
+                            <div class="subheading mb-3">Mie Hospital</div>
+                            <ul>
+                                <li>
+                                    3D evaluated 110 lumbar degenerative spines after eXtreme Lateral Interbody Fusion(XLIF) through Mimics and C++
+                                </li>
+                                <li>
+                                    Discovered that the disc height of the cranial adjacent segment significantly decreased by 8% after the insertion of an
+                                    XLIF cage
+                                </li>
+                                <li>
+                                    Presented the project at Orthopaedic Research Society Annual Conference
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2019 - September 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Summer Research Intern</h3>
+                            <div class="subheading mb-3">Mie Hospital</div>
+                            <ul>
+                                <li>
+                                    2018: Developed a MATLAB script to obtain the parameters of 127 patients that speed up 10X faster than the manual process
+                                </li>
+                                <li>
+                                    Discovered that Femoroacetabular Impingement patients lost the correlation between lumbar lordosis and pelvic tilt
+                                </li>
+                                <li>
+                                    Presented the project at Orthopaedic Research Society Annual Conference
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2018 - September 2018</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+            <!-- Publications-->
+            <section class="resume-section" id="publications">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Publications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-book"></i></i></span>
+                            Relationships Between Lumbar Lordosis and Pelvic Parameters in Femoroacetabular Impingement Subjects 
+                            <a href="https://www.ors.org/Transactions/65/1058.pdf">LINK</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-book"></i></i></span>
+                            Three-dimensional Computerized Tomography Evaluation of Disc Height Changes of Adjacent Segments Following
+                            Extreme Lateral Interbody Fusion
+                            <a href="Three-dimensional Computerized Tomography Evaluation of Disc Height Changes of Adjacent Segments Following
+Extreme Lateral Interbody Fusion">LINK</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">App Academy</h3>
+                            <div class="subheading mb-3">Program: Software Engineering</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2021 - September 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of California, San Diego</h3>
+                            <div class="subheading mb-3">Bachelor of Science: Bioengineering</div>
+                            <p>GPA: 3.43</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2017 - June 2021</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Lean Sigma Yellow Belt - 2021
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            UCSD Sixth College Leadership Award Finalist - 2020 & 2021
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+     Julia Brown Scholar - 2019
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Lee-Karlon Bioengineering Scholar - 2018
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Academic Community Engineering School - 2017
+                        </li>
+                        
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            President Community Service Award - 2017
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a full stack developer, I enjoy most of my time travelling and goint to music festivals. I also surf to destress because watching sunset on the water makes me relaxed</p>
+                    <p class="mb-0">If I am tired and want to stay indoor, my go-to activities are cooking and watching travel vlogs. The proudest dish that I made is Pasta with Lobster sauce.</p>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
